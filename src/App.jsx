@@ -12,6 +12,7 @@ import Stats from "./components/Stats";
 import Blogs from "./components/Blogs";
 import { Footer } from "./components/Footer";
 import Reminder from "./components/Reminder";
+import DoctorSignup from "./components/DoctorSignup";
 
 const App = () => {
   return (
@@ -25,6 +26,9 @@ const App = () => {
       </div>
       <div id="services">
         <Services />
+      </div>
+      <div id="doctor-signup">
+        <DoctorSignup />
       </div>
       <div id="contact">
         <ContactUs />

@@ -43,15 +43,15 @@ const Navbar = () => {
 
   return (
     <div className="relative z-50 border-t-[1px] border-slate-400 bg-white">
-      
+
       {/* TOP NAV */}
       <div className="max-w-[1200px] flex justify-between items-center px-2 mx-auto">
-        
+
         {/* LOGO */}
         <div className="flex items-center">
           <img src="src/assets/logo.png" alt="" width={80} />
-          <h1 className="text-3xl font-bold font-mono">
-            Medi<span className="text-[#3e8cff]">Core</span>
+          <h1 className="text-5xl font-bold font-mono text-[#3e8cff]">
+            Ilaaj
           </h1>
         </div>
 
@@ -61,6 +61,7 @@ const Navbar = () => {
           <li className="hover:text-[#3e8cff] cursor-pointer"><a href="/">Home</a></li>
           <li className="hover:text-[#3e8cff] cursor-pointer"><a href="#about">About</a></li>
           <li className="hover:text-[#3e8cff] cursor-pointer"><a href="#services">Services</a></li>
+          <li className="hover:text-[#3e8cff] cursor-pointer"><a href="#doctor-signup">Sign Up as Doctor</a></li>
 
           {/* DROPDOWN */}
           <li className="relative ">
@@ -115,9 +116,10 @@ const Navbar = () => {
       >
         <ul className="flex flex-col items-center p-4 gap-4">
 
-          <li className="hover:text-[#3e8cff]">Home</li>
-          <li className="hover:text-[#3e8cff]">About</li>
-          <li className="hover:text-[#3e8cff]">Services</li>
+          <li className="hover:text-[#3e8cff]"><a href="/">Home</a></li>
+          <li className="hover:text-[#3e8cff]"><a href="#about">About</a></li>
+          <li className="hover:text-[#3e8cff]"><a href="#services">Services</a></li>
+          <li className="hover:text-[#3e8cff]"><a href="#doctor-signup">Sign Up as Doctor</a></li>
 
           {/* MOBILE DROPDOWN */}
           <li className="text-center w-full">

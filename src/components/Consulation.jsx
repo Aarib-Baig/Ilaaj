@@ -40,8 +40,8 @@ const Consulation = () => {
             </h1>
 
             <h1 className="mt-5 text-lg text-slate-600">
-              Doctor are choosing from our diverse pool of health specialists.
-              Discover better health & wellness by using our doctor ratings &
+              Choose a doctor from our diverse pool of health specialists.
+              Discover better health & wellness with our doctor ratings &
               reviews to make your choice.
             </h1>
           </div>
@@ -61,22 +61,6 @@ const Consulation = () => {
                 </span>
               </div>
             ))}
-          </div>
-
-          <div>
-            <iframe
-              className="w-full h-[300px] rounded-xl"
-              src="https://www.youtube.com/embed/0CFLTrPvwFY"
-              allowFullScreen
-            ></iframe>
-          </div>
-
-          <div>
-            <iframe
-              className="w-full h-[300px] rounded-xl"
-              src="https://www.youtube.com/embed/bzW1ynK_J28"
-              allowFullScreen
-            ></iframe>
           </div>
         </div>
       </div>

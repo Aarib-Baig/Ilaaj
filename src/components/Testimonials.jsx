@@ -11,7 +11,7 @@ const Testimonials = () => {
         {
             id:1 ,
             name: "Abbas Shah",
-            desc: "“I wish the world could know the wonderful things that are happening on the MediCore hospital. ”",
+            desc: "“I wish the world could know the wonderful things that are happening on the Ilaaj hospital. ”",
             type: "Customer Service",
             img: "https://plus.unsplash.com/premium_photo-1671656349322-41de944d259b?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cG9ydHJhaXR8ZW58MHx8MHx8fDA%3D"
         },

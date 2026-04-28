@@ -31,7 +31,7 @@ const Section = () => {
     <div className='p-8 max-w-[1200px] mx-auto '>
       <div className='flex flex-col lg:flex-row p-4 rounded-3xl bg-white shadow-2xl'>
         {data.map((item) =>(
-            <diV key={item.id} className="flex m-4 items-center gap-4 flex-col md:flex-row">
+            <div key={item.id} className="flex m-4 items-center gap-4 flex-col md:flex-row">
                 <div className="img bg-[#3e8cff] w-fit p-6 rounded-full">
                     <i className='text-5xl text-white'>{item.icon}</i>
                 </div>
@@ -40,7 +40,7 @@ const Section = () => {
                     <h1 className='text-lg'>{item.text}</h1>
                     <button className='mt-5 font-bold text-sm uppercase border-b-2 border-[#3e8cff] hover:text-[#3e8cff] duration-300 cursor-pointer'>{item.button}</button>
                 </div>
-            </diV>
+            </div>
         ))}
       </div>
     </div>

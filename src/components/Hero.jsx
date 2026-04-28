@@ -19,7 +19,7 @@ const Hero = () => {
               <span className="text-[#3e8cff] text-3xl">
                 <TbActivityHeartbeat />{" "}
               </span>
-              Serving to the People Since 2000
+              Serving the People Since 2000
             </div>
 
             <div className="text-4xl md:text-6xl lg:7xl font-bold">

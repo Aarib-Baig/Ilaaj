@@ -40,15 +40,14 @@ const AboutUs = () => {
               About Us
             </h2>
             <h1 className="font-bold text-2xl md:text-5xl">
-              Welcome To Doctorate Central Hospital
+              Welcome To Ilaaj, your online health partner
             </h1>
             <h2 className="text-lg font-light text-slate-600 mt-3">
-              Our team of highly trained professionals uses the latest healing
-              technologies to restore you to pain-free health quickly and
-              easily.
+              Our team of highly trained medical professionals ensure that
+              you return to pain-free health quickly and easily.
             </h2>
           </div>
-         
+
           <div className="blueBox p-2 md:p-8 bg-blue-900 rounded-3xl mt-5 w-full shadow-2xl">
             {/* Features */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
