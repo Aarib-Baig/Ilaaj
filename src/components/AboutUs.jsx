@@ -1,6 +1,7 @@
 import React from "react";
 import { TbActivityHeartbeat } from "react-icons/tb";
 import { TiInputChecked } from "react-icons/ti";
+import DocImage from "../assets/doc.png";
 
 const AboutUs = () => {
   const data = [
@@ -29,7 +30,7 @@ const AboutUs = () => {
     <div>
       <div className="max-w-[1200px] mx-auto flex items-center gap-2 mt-[50px] flex-col-reverse md:flex-row">
         <div className=" md:w-1/2">
-          <img className="object-contain" src="/src/assets/doc.png" alt="" />
+          <img className="object-contain" src={DocImage} alt="" />
         </div>
         <div className=" p-4 md:w-1/2 flex flex-col items-start">
           <div className="">

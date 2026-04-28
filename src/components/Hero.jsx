@@ -1,5 +1,6 @@
 import React from "react";
 import { TbActivityHeartbeat } from "react-icons/tb";
+import ICUImage from "../assets/ICU.png";
 
 const Hero = () => {
   return (
@@ -7,7 +8,7 @@ const Hero = () => {
       {/* Background Image */}
       <img
         className="w-full h-[60vh] min-h-[500px] object-cover"
-        src="/src/assets/ICU.png"
+        src={ICUImage}
         alt=""
       />
 

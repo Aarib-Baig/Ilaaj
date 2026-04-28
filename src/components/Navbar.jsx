@@ -3,6 +3,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { SlCalender } from "react-icons/sl";
 import { RxCross2 } from "react-icons/rx";
 import { gsap } from "gsap";
+import LogoImage from "../assets/logo.png";
 
 const Navbar = () => {
   const [clicked, setClicked] = useState(false);
@@ -49,7 +50,7 @@ const Navbar = () => {
 
         {/* LOGO */}
         <div className="flex items-center">
-          <img src="src/assets/logo.png" alt="" width={80} />
+          <img src={LogoImage} alt="" width={80} />
           <h1 className="text-5xl font-bold font-mono text-[#3e8cff]">
             Ilaaj
           </h1>
